@@ -69,5 +69,5 @@ def get_uploaded_file(filename):
 
 # Run the Flask app
 if __name__ == "__main__":
-    port = int(os.environ.get("PORT", 5000))  # Ensure correct port for Render deployment
+    port = int(os.environ.get("PORT", 10000))  # Ensure correct port for Render deployment
     app.run(host="0.0.0.0", port=port, debug=False)
